@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Form(props) {
-  const { todos, handleAddTodo, handleCompleted, formOnChange } = props;
+  const { handleAddTodo, handleCompleted } = props;
 
   const [newTodo, setNewTodo] = useState("");
 
